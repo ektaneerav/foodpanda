@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>Food Panda</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="page-wrapper">
+	    <a href="/"><img id="logo" src="images/Panda.png" alt="Restaurant Logo"></a>
+		<h2 id="logo_title">Food Panda</h2>
+	  
+	  <nav id="main-menu">
+          <h2 class="hidden">Main navigation</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="special.html">Special</a></li>
+            <li><a href="giftcard.html">Gift Cards</a></li>
+            <li><a href="EventBooking.html">Event Booking</a></li>
+            <li><a href="contest.html">Contest</a></li>
+            <li><a href="Location.html">Location</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="Careers.html">Careers</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+          </ul>
+        </nav>
+	  </div>
+	</header>
+	<section>
+	<!-- Main section -->
+	<div id="menu_container">
+		  <div class="first t">
+			<p class="desc">Veggie Pockets <span class="price">$14</span><br />
+			<small>Cabbage, carrot, spinach, potatoes, capsicum, chilli stuffed in pocket. Fried in canola oil. Served with coriander chutney. </small></p>
+		  </div>
+
+		  <div class="soup t">
+			<p class="desc">Manchaw soup <span class="price">$8</span><br />
+			<small>Potatoes, carrots, celery, garlic and onion boiled in spiced water. Served with fried noodles on top of it. </small></p>
+		  </div>
+
+		  <div class="second t">
+			<p class="desc">Panner tikka Masala<span class="price">$22</span><br />
+			<small>Toasted panner and capsicum with onion, tomatoes and chashew rich gravy. Topped with rich cream.</small></p>
+		  </div>
+		  
+		  <div class="third t">
+			<p class="desc">Navratna Korma <span class="price">$24</span><br />
+			<small>Toasted Red, yellow, green pepper, cauliflower, peas made with creamy rich red gravy and spiced with dirfferent spices.</small></p>
+		  </div>
+		  
+		  <div class="salad t">
+			<p class="desc">Green House Salad <span class="price">$15</span><br />
+			<small>Fresh green lettuce, red cabbage, tomotes, cucumber, cranberry, feta cheese. Comes with ranch salad dressing.</small></p>
+		  </div>
+		  
+		  <div class="dessert t">
+			<p class="desc">Gulab Jamun <span class="price">$8</span><br />
+			<small>Gulab jamun is a milk-solid-based sweet from the Indian subcontinent. Spongy milky balls dipped in sugar syrup.</small></p>
+		  </div>
+	</div>
+	
+	</section>
+	
+	<footer id="footer">
+	<div class="page-wrapper">
+	<div class="col-1-footer">
+		<p id="logo_bottom">Food Panda</p>
+	</div> 
+	  <div id="social-media">
+	  <ul>
+	    <li><a href="#"><img src="images/social_media/facebook-icon.png" alt="share on facebook"></a></li>
+	    <li><a href="#"><img src="images/social_media/gmail-icon.png" alt="share on facebook"></a></li>
+	    <li><a href="#"><img src="images/social_media/Linkedin-icon.png" alt="share on facebook"></a></li>
+	    <li><a href="#"><img src="images/social_media/Twitter-icon.png" alt="share on facebook"></a></li>
+	  </ul>
+	  </div>
+	  	  <p id="copy-right">Copyright © 2018 Food Panda Restaurant Ltd. All rights reserved.</p>
+
+	</div>
+	</footer>
+	
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+    $('.t').on('click', function() {
+        $(this).toggleClass('show-description');
+    });
+  </script>
+</body>
+</html>
